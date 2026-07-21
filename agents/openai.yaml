@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Redesign PRD"
+  short_description: "Audit a website and create an executable redesign PRD"
+  default_prompt: "Use $plan-website-redesign to produce a concise problem report and an executable website redesign PRD."
