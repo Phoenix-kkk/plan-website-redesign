@@ -1,48 +1,48 @@
-# GEO 网站诊断与改版 PRD
+# GEO Website Audit & Redesign PRD
 
-输入网站 URL，即可分析网站的 GEO 问题与优化建议，最后转换为两份可执行交付物：
+Enter a website URL to identify GEO issues and improvement opportunities, then turn the findings into two actionable deliverables:
 
-1. 简洁的网站问题报告；
-2. 面向设计、内容、开发、销售与法务团队的网站改版 PRD。
+1. A concise website problem report.
+2. An implementation-ready website redesign PRD for design, content, engineering, sales, and legal teams.
 
-## 安装
+## Install
 
 ```bash
 npx skills add Phoenix-kkk/plan-website-redesign -g -y
 ```
 
-或克隆仓库后，将 `plan-website-redesign` 文件夹放入你的 Codex skills 目录。
+Alternatively, clone this repository and place the `plan-website-redesign` folder in your Codex skills directory.
 
-## 使用
-
-```text
-使用 $plan-website-redesign，把 https://example.com/ 转换成一份可供设计、内容和开发团队执行的网站改版方案。
-```
-
-该 skill 会先输出问题报告，再输出改版 PRD。默认不会修改目标网站。
-
-## 输出内容
-
-- 问题报告：执行诊断、范围与限制、可保留资产、`优先级｜问题｜影响` 三列表格、待确认事项。
-- 改版 PRD：信息架构与导航、页面地图、全站 TDK/Schema、逐页模块文案、公共组件、SEO/GEO、埋点、迁移、分期与验收。
-
-每个核心页面模块都包含标题、副标题、正文、组件内容、CTA、视觉要求和 SEO 要求。涉及 SEO、GEO、AI 可见性或结构化数据时，skill 会结合对应的检查流程；不会承诺排名、流量或 AI 引用结果。
-
-## 适用场景
-
-- 企业官网、产品官网、服务官网改版
-- 网站诊断与信息架构重构
-- SEO / GEO / AI 可见性规划
-- 将已有审计或内容材料整理为可落地的改版 PRD
-
-## 目录
+## Usage
 
 ```text
-SKILL.md       # 工作流与输出规则
-assets/        # 问题报告与改版 PRD 模板
-references/    # 发现、页面规格、SEO/GEO 与验收参考
+Use $plan-website-redesign to turn https://example.com/ into an actionable website redesign plan for design, content, and engineering teams.
 ```
 
-## 边界
+The skill produces the problem report first, followed by the redesign PRD. It does not modify the target website unless implementation is explicitly requested.
 
-缺少证据的价格、客户、效果、认证、功能或法律主张会标记为待确认，不会被虚构为事实。上线前仍需由业务、产品、法务和开发团队完成核验。
+## What You Get
+
+- **Problem report:** Executive diagnosis, scope and limitations, assets to preserve, a `Priority | Problem | Impact` issue table, and decisions to confirm.
+- **Redesign PRD:** Information architecture and navigation, page map, site-wide TDK and Schema, page-level content specifications, global components, SEO/GEO, analytics, migration, phases, and acceptance criteria.
+
+Every core module includes a title, subtitle, body copy, component content, CTA, visual requirements, and SEO requirements. When SEO, GEO, AI visibility, or structured data is in scope, the skill applies the relevant audit workflow. It does not promise rankings, traffic, or AI citations.
+
+## Best For
+
+- Corporate, product, and service website redesigns
+- Website audits and information architecture restructuring
+- SEO, GEO, and AI-visibility planning
+- Converting an existing audit or content materials into an executable redesign PRD
+
+## Structure
+
+```text
+SKILL.md       # Workflow and delivery rules
+assets/        # Problem-report and redesign-PRD templates
+references/    # Discovery, page specification, SEO/GEO, and acceptance guidance
+```
+
+## Boundaries
+
+Unsupported claims about pricing, customers, results, certifications, capabilities, or legal terms are marked as pending confirmation rather than presented as facts. Business, product, legal, and engineering owners must verify them before launch.
